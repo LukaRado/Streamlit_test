@@ -13,9 +13,9 @@ if st.button('Submit'):
 
 # Installing & Importing Data
 #u stands for upgrade #q stands for quiet/not so much output 
-!pip install xgboost -U -q 
-!pip install sklearn -U -q
-!pip install shap -U -q
+pip install xgboost -U -q 
+pip install sklearn -U -q
+pip install shap -U -q
 #importing libraries
 import pandas as pd
 import numpy as np
